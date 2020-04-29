@@ -30,6 +30,13 @@
     },
     "images": [
         {
+            "filename": "BIG-IQ-7.1.0.0.0.1511.qcow2",
+            "version": "7.1.0.0",
+            "md5sum": "f67f1969aadf94ae8673ac85a8a43892",
+            "filesize": 4567072768,
+            "download_url": "https://downloads.f5.com/esd/serveDownload.jsp?path=/big-iq/big-iq_cm/7.1.0/english/v7.1.0/&sw=BIG-IQ&pro=big-iq_CM&ver=7.1.0&container=v7.1.0&file=BIG-IQ-7.1.0.0.0.1511.qcow2.zip"
+        },
+        {
             "filename": "BIG-IQ-7.0.0.0.0.1854.qcow2",
             "version": "7.0.0.0",
             "md5sum": "89ff128c4ba82c266a6cefa21c80029b",
@@ -102,6 +109,13 @@
         }
     ],
     "versions": [
+        {
+            "name": "7.1.0.0",
+            "images": {
+                "hda_disk_image": "BIG-IQ-7.1.0.0.0.1511.qcow2",
+                "hdb_disk_image": "empty100G.qcow2"
+            }
+        },
         {
             "name": "7.0.0.0",
             "images": {
